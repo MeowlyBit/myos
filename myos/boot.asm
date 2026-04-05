@@ -5,13 +5,19 @@ mov ah, 0x0e
 mov al, 'M'
 int 0x10
 
-mov al, 'e'
+mov al, 'E'
 int 0x10
 
-mov al, 'o'
+mov al, 'O'
 int 0x10
 
-mov al, 'w'
+mov al, 'W'
+int 0x10
+
+mov al, ':'
+int 0x10
+
+mov al, '3'
 int 0x10
 
 jmp $
